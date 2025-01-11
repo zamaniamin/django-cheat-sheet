@@ -1,16 +1,15 @@
-[project]
-name = "python"
+[tool.poetry]
+name = "python-monster"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "AminZamani",email = "aminzamani.work@gmail.com"}
-]
+authors = ["AminZamani <aminzamani.work@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+mkdocs-material = "^9.5.49"
 
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
