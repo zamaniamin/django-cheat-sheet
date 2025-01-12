@@ -1,12 +1,15 @@
 site_name: Python Monster
-site_url: https://mydomain.org/mysite
+site_url: https://zamaniamin.github.io/python/
 repo_url: https://github.com/zamaniamin/python
 repo_name: zamaniamin/python
+
 theme:
   name: material
+  #  favicon: images/favicon.ico
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
+      primary: black
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
@@ -14,6 +17,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: black
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -21,22 +25,53 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-
   features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
+    #    - navigation.top
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
     - navigation.path
-    - navigation.top
-    - announce.dismiss
+    - content.code.copy
+    #    - navigation.expand
+    #    - navigation.sections
+    #    - navigation.instant
+    #    - navigation.instant.prefetch
+    #    - navigation.instant.progress
+  #    - announce.dismiss
 
   icon:
+    logo: octicons/hubot-24
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+# navigations
+nav:
+  - Home: index.md
+  - Python: python/index.md
+  - Django: django/index.md
+  - Software Developing:
+      - Introduction: developing/index.md
+      - Git:
+          - Commit Message Structure: developing/git/commit-message-structure.md
+      - Design patterns: developing/design_patterns/design_patterns.md
+      - SOLID Principles:
+          - Intro: developing/solid_principles/solid_principles.md
+          - Single Responsibility Principle: developing/solid_principles/srp.md
