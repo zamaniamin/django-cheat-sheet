@@ -65,7 +65,8 @@ markdown_extensions:
 # navigations
 nav:
   - Home: index.md
-  - Python: python/index.md
+  - Python:
+      - Classes and Objects: python/classes/classes-and-objects.md
   - Django: django/index.md
   - Software Developing:
       - Introduction: developing/index.md
