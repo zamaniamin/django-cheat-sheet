@@ -68,7 +68,8 @@ nav:
   - Python:
       - Classes and Objects: python/classes/classes-and-objects.md
       - Object-Oriented Programming (OOP): python/classes/object-oriented-programming.md
-  - Django: django/index.md
+  - Django:
+      - Models and databases: django/models.md
   - Software Developing:
       - Introduction: developing/index.md
       - Git:
