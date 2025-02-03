@@ -38,6 +38,47 @@ more.
 Finally, you can use classes to build **class hierarchies**. This way, you’ll promote code reuse and remove repetition
 throughout your codebase.
 
+## Defining a Class
+
+To define a class, you need to use the class keyword followed by the class name and a colon, just like you’d do for
+other [compound statements](https://docs.python.org/3/reference/compound_stmts.html) in Python. Then you must define the
+class body, which will start at the next indentation level:
+
+```python title="Syntax"
+class ClassName:
+    < body >
+```
+
+In a class’s body, you can define attributes and methods as needed.  
+In Python, the body of a given class works as a **namespace** where attributes and methods live. You can only access
+those attributes and methods through the class or its objects.
+
+```python title="circle.py"
+import math
+
+
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def calculate_area(self):
+        return math.pi * self.radius ** 2
+```
+
+code description:
+
+* In this code snippet, you define `Circle` using the `class` keyword. Inside the class, you write two methods. The `.__
+  init__()` method has a special meaning in Python classes. This method is known as the object initializer because it
+  defines
+  and sets the initial values for the object’s attributes.
+* The second method of `Circle` is conveniently named `.calculate_area()` and will compute the area of a specific circle
+  by using its radius. In this example, you’ve used the `math` module to access the pi constant as it’s defined in that
+  module. It’s common for method names to contain a verb, such as calculate, to describe an action the method performs.
+* In Python, the first argument of most methods is `self`. This argument holds a reference to the current object so that
+  you can use it inside the class.
+
+## Creating Objects From a Class
+
 ## Python objects
 
 You probably know the built-in `len()` function. It simply returns the length of the object you give it. But what is the
