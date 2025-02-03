@@ -1,5 +1,9 @@
 # Object-Oriented Programming (OOP)
 
+Python classes form the backbone of object-oriented programming, enabling you to encapsulate data and behavior into a
+single entity. When you work with a Python class, you define attributes to store data and methods to perform actions.
+This structure allows you to model real-world objects and create organized, reusable code.
+
 Object-oriented programming (OOP) in Python helps you structure your code by grouping related data and behaviors into
 objects. You start by defining classes, which act as blueprints, and then create objects from them. OOP simplifies
 modeling real-world concepts in your programs and enables you to build robust systems in Python that are more reusable
@@ -52,7 +56,7 @@ There are a number of issues with this approach.
 First, it can make larger code files more difficult to manage. If you reference `kirk[0]` several lines away from where
 you declared the `kirk` list, will you remember that the element with index `0` is the employee’s name?  
 Second, it can introduce errors if employees don’t have the same number of elements in their respective lists. In the
-`mccoy` list above, the age is missing, so `mccoy[1]` will return "Chief Medical Officer" instead of Dr. McCoy’s age.
+`mccoy` list above, the age is missing, so `mccoy[1]` will return `"Chief Medical Officer"` instead of Dr. McCoy’s age.
 
 A great way to make this type of code more manageable and more maintainable is to use **classes**.
 

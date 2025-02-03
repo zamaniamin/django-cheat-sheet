@@ -3,6 +3,41 @@
 When you’re just creating small scripts, chances are you don’t need to create your own Python classes. But once you
 start creating larger applications, objects and classes allow you to organize your code naturally.
 
+A class in Python serves as a blueprint for creating objects, which are instances of the class. You use classes when you
+need to encapsulate related data and functions, making your code modular and easier to manage. By defining classes, you
+can create multiple objects that share the same attributes and methods, while maintaining their own unique state.
+
+> You use classes to model complex **data structures and behaviors** in a modular way.
+> **Methods** define behaviors, while **attributes** store data within class instances.
+
+## Getting Started With Python Classes
+
+What is a class in Python? A common analogy is that a class is like the blueprint for a house. You can use the blueprint
+to create several houses and even a complete neighborhood. Each concrete house is an **object** or **instance** that’s
+derived from the blueprint.
+
+Each instance can have its own properties, such as color, owner, and interior design. These properties carry what’s
+commonly known as the object’s state. Instances can also have different behaviors, such as locking the doors and
+windows, opening the garage door, turning the lights on and off, watering the garden, and more.
+
+In OOP, you commonly use the term **attributes** to refer to the properties or data associated with a specific object of
+a given class. In Python, attributes are variables defined inside a class with the purpose of storing all the required
+data for the class to work.
+
+Similarly, you’ll use the term **methods** to refer to the different behaviors that objects will show. Methods are
+functions that you define within a class. These functions typically operate on or with the attributes of the underlying
+instance or class. Attributes and methods are collectively referred to as **members** of a class or object.
+
+You can write classes to model the real world. These classes will help you better organize your code and solve complex
+programming problems.
+
+For example, you can use classes to create objects that emulate people, animals, vehicles, books, buildings, cars, or
+other objects. You can also model virtual objects, such as a web server, directory tree, chatbot, file manager, and
+more.
+
+Finally, you can use classes to build **class hierarchies**. This way, you’ll promote code reuse and remove repetition
+throughout your codebase.
+
 ## Python objects
 
 You probably know the built-in `len()` function. It simply returns the length of the object you give it. But what is the
@@ -126,7 +161,7 @@ Strings, numbers, and even booleans are instances of a class too. Let’s explor
 
 Apparently, there are classes called `str`, `int`, and `bool`. These are some of Python’s native classes.
 
-## Creating a Python class
+## Class Definition
 
 Let’s make a Python class that represents a car.
 
@@ -203,4 +238,5 @@ identical-looking cars. They all behave similarly, but they all have their own d
 Each object in Python has a unique identifier, and used the built-in method `id()` to get their ids.
 
 ---
-source: [Python Land](https://python.land/objects-and-classes)
+source: [Python Land](https://python.land/objects-and-classes)  
+source: [Real Python](https://realpython.com/python-classes)

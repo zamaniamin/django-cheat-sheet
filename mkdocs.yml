@@ -66,6 +66,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Python:
+      - Introduction to Python: python/index.md
+      - Syntax: python/syntax/python-syntax.md
       - Classes and Objects: python/classes/classes-and-objects.md
       - Object-Oriented Programming (OOP): python/classes/object-oriented-programming.md
   - Django:
