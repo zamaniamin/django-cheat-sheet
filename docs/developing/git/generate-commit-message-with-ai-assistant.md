@@ -1,4 +1,5 @@
-✨ Automate conventional Git commits in PyCharm! This AI prompt generates clean, structured messages (type, scope,
+✨ Automate conventional Git commits in PyCharm! This AI prompt generates
+clean, [structured messages](commit-message-structure.md) (type, scope,
 summary, details) in seconds. Say goodbye to messy commits!
 
 Go to Pycharm and follow these steps:
