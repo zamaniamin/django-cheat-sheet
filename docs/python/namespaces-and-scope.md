@@ -1,0 +1,1 @@
+# Namespaces and Scope in Python

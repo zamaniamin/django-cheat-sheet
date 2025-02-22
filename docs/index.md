@@ -3,8 +3,7 @@
 Hi
 
 Welcome to **Python Monster** – where the journey to mastering Python and becoming a senior backend developer unfolds!
-I'm a
-passionate Python programmer, sharing my learnings, experiences, and deep dives into the world of
+I'm a passionate Python programmer, sharing my learnings, experiences, and deep dives into the world of
 **[Python](python/index.md)**, **[Django](django/index.md)**,
 and **[Software Developing](developing/index.md)** principles like SOLID and design
 patterns.

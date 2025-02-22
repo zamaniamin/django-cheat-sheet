@@ -69,6 +69,7 @@ nav:
       - Introduction to Python: python/index.md
       - Syntax: python/syntax/python-syntax.md
       - Classes and Objects: python/classes/classes-and-objects.md
+      - Namespaces and Scope: python/namespaces-and-scope.md
       - Object-Oriented Programming (OOP): python/classes/object-oriented-programming.md
   - Django:
       - Models and databases: django/models.md
@@ -77,6 +78,7 @@ nav:
       - Git:
           - Commit Message Structure: developing/git/commit-message-structure.md
           - Best Practices For Git Commits: developing/git/best-practices-for-git-commits.md
+          - Generate Commit Message with AI Assistant: developing/git/generate-commit-message-with-ai-assistant.md
       - Design patterns: developing/design_patterns/design_patterns.md
       - SOLID Principles:
           - Intro: developing/solid_principles/solid_principles.md
