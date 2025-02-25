@@ -72,7 +72,9 @@ nav:
       - Namespaces and Scope: python/namespaces-and-scope.md
       - Object-Oriented Programming (OOP): python/classes/object-oriented-programming.md
   - Django:
+      - Introduction to Django: django/index.md
       - Models and databases: django/models.md
+      - Reduce Test Time: django/testing/reduce-test-time.md
   - Software Developing:
       - Introduction: developing/index.md
       - Git:
